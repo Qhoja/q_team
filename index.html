@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Team</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #007acc;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .member {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .member:hover {
+      transform: scale(1.03);
+    }
+    .member img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+    .member h3 {
+      margin: 0.5rem 0 0.2rem;
+    }
+    .member p {
+      margin: 0.2rem 0 1rem;
+      font-style: italic;
+    }
+    .member a {
+      color: #007acc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .member a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Team</h1>
+    <p>Professionals in their field</p>
+  </header>
+
+  <section class="team">
+    <div class="member">
+      <img src="img/person1.jpg" alt="Photo">
+      <h3>...</h3>
+      <p>Co-founder and CEO</p>
+      <a href="https://example.com/ivan">Page</a>
+    </div>
+    <div class="member">
+      <img src="img/person2.jpg" alt="Photo">
+      <h3>...</h3>
+      <p>Co-founder and CTO</p>
+      <a href="https://example.com/maria">Page</a>
+    </div>
+    <div class="member">
+      <img src="img/person3.jpg" alt="Photo">
+      <h3>...</h3>
+      <p>Full Stack Developer, Data Scientist</p>
+      <a href="https://example.com/alexey">Page</a>
+    </div>
+    <div class="member">
+      <img src="img/person4.jpg" alt="Photo">
+      <h3>...</h3>
+      <p>HR, Marketing, Project Manager</p>
+      <a href="https://example.com/olga">Page</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Our Team
+  </footer>
+</body>
+</html>
